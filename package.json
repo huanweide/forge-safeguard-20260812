@@ -1,0 +1,16 @@
+{
+  "name": "safeguard",
+  "version": "1.1.0",
+  "description": "轻量命令安全护栏（pm 优化版）：语句拆分+逐句危险检测，区分引用/搜索与真执行，覆盖 Unix+Windows 高危模式。",
+  "bin": {
+    "safeguard": "index.js"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=14"
+  }
+}
