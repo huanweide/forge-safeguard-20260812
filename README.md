@@ -10,6 +10,12 @@
 
 纯 Node/TS，零编译，规则用 JS 热改。MIT，非盈利。
 
+> **📦 便携性速览**
+>
+> - **纯 Node/TS，零编译**：`node index.js check "命令"` 即用，规则用 JS 热改。
+> - 本地运行，无后端、无依赖安装；MIT，非盈利。
+
+
 ## 用法
 ```bash
 node index.js check "rm -rf /"        # 危险 → 退出码 1
@@ -30,3 +36,12 @@ node /path/to/safeguard/index.js check "$CMD" || exit 1
 ```bash
 node test.js   # 输出 ALL TESTS PASSED
 ```
+---
+
+## 🧰 更多开源工具（by ReTri · 樊斯瑞）
+
+- 🎬 字幕 / 视频：[bili-subtitle-universal](https://github.com/huanweide/bili-subtitle-universal) · [live-subtitle](https://github.com/huanweide/live-subtitle) · [zhihuishu-helper](https://github.com/huanweide/zhihuishu-helper) · [video-brief](https://github.com/huanweide/video-brief)
+- 🩺 代码健康全家桶（18 轴零依赖 CLI）：[family-showcase](https://github.com/huanweide/family-showcase)
+- 🔧 命令行利器：[idiot-index](https://github.com/huanweide/idiot-index) · [recall-cli](https://github.com/huanweide/recall-cli) · [forge-safeguard](https://github.com/huanweide/forge-safeguard-20260812)
+- 🖥️ 桌面 / 资讯：[floatsnip](https://github.com/huanweide/floatsnip) · [tech-news-hub](https://github.com/huanweide/tech-news-hub)
+- 📦 全部仓库：<https://github.com/huanweide?tab=repositories>
