@@ -1,3 +1,10 @@
+<!-- badges -->
+[![License](https://img.shields.io/github/license/huanweide/forge-safeguard-20260812)](LICENSE)
+[![Stars](https://img.shields.io/github/stars/huanweide/forge-safeguard-20260812)](https://github.com/huanweide/forge-safeguard-20260812/stargazers)
+<!-- /badges -->
+
+⚡ A lightweight command safety guardrail that intercepts destructive commands before agent/automation runs them — distinguishing quoted references from real execution.
+
 # safeguard（pm 优化版 · v1.1.0）
 
 轻量命令安全护栏。在 agent / 自动化真正执行命令前，拦截破坏性命令，并**区分「引用/搜索」与「真执行」**。
