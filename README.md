@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/banner.svg" alt="forge-safeguard" width="640">
+</p>
+
 <!-- badges -->
 [![License](https://img.shields.io/github/license/huanweide/forge-safeguard-20260812)](LICENSE)
 [![Stars](https://img.shields.io/github/stars/huanweide/forge-safeguard-20260812)](https://github.com/huanweide/forge-safeguard-20260812/stargazers)
