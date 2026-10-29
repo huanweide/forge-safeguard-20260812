@@ -49,7 +49,7 @@ node test.js   # 输出 ALL TESTS PASSED
 ```
 ---
 
-## 🧰 更多开源工具（by ReTri · 樊斯瑞）
+## 🧰 更多开源工具（by ReTri）
 
 - 🎬 字幕 / 视频：[bili-subtitle-universal](https://github.com/huanweide/bili-subtitle-universal) · [live-subtitle](https://github.com/huanweide/live-subtitle) · [zhihuishu-helper](https://github.com/huanweide/zhihuishu-helper) · [video-brief](https://github.com/huanweide/video-brief)
 - 🩺 代码健康全家桶（18 轴零依赖 CLI）：[family-showcase](https://github.com/huanweide/family-showcase)
