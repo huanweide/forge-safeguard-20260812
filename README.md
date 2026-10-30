@@ -8,6 +8,7 @@
 <!-- /badges -->
 
 ⚡ A lightweight command safety guardrail that intercepts destructive commands before agent/automation runs them — distinguishing quoted references from real execution.
+**English** · [README_EN.md](./README_EN.md)
 
 # safeguard（pm 优化版 · v1.1.0）
 
