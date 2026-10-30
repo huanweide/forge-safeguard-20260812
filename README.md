@@ -13,7 +13,7 @@
 
 轻量命令安全护栏。在 agent / 自动化真正执行命令前，拦截破坏性命令，并**区分「引用/搜索」与「真执行」**。
 
-相对 am 版的修复（来自 maxloop 魔王系统深度体验）：
+相对 am 版的修复（来自 MaxLoop 深度体验）：
 - 按 `; & | && ||` 和换行**拆语句、逐句检测**，杜绝 `echo x; rm -rf /` 整条误放行。
 - 只读动词（echo/grep/find/sed…）开头的语句豁免常规危险文本（引号内引用安全），仅 `find -delete` / `sed -i` / `find -exec rm` 等 `readonlyUnsafe` 规则仍生效。
 - 补全规则：git push --force、shutdown/reboot、chown -R、crontab -r、mv 到 /dev/null、重定向覆写设备，以及 **Windows** 的 `del /s /q`、`rd /s /q`、`format C:`。
